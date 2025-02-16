@@ -6,7 +6,9 @@ This is a web application type project. A web application, unlike computer-based
 In this project,I used Python Django for backend,HTML,CSS for front end.User will enter a URL in their browser,that request will go through the internet protocols,to our server,which will then call Django.Django will process the given URL path,and if it matches an URL path we have explicitly stated in the urls.py file,it will call the controller,which will then perform a certain action,such as get an entry from our model (database) and then render a view (HTML/CSS web page).HTML,CSS are used for designing our web pages of our portal.We used SQLite for storing and accessing the database.
 
 ## Commands
+```bash
 pip install -r requirements.txt
 py manage.py createsuperuser
-[enter your username, email, password]
 py manage.py runserver
+```
+(enter your username, email, password) after 'py manage.py createsuperuser' command
